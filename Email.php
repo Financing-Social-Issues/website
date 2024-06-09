@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->SMTPSecure = 'TLS';
             $mail->Port = 587;
 
+
             // Destinatários
             $mail->setFrom($mail_from, $name);
             $mail->addAddress($email);

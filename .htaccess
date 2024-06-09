@@ -1,0 +1,46 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Options -Indexes
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . index.php [L]
+</IfModule>
+
+ <IfModule mod_headers.c>
+	<FilesMatch "\.(ico|jpe?g|png|gif|svg|css|gz)$">
+		Header set Cache-Control "max-age=2592000, public"
+	</FilesMatch>
+	<FilesMatch "\.(js)$">
+		Header set Cache-Control "max-age=2592000, public"
+	</FilesMatch>
+	<filesMatch "\.(html|htm)$">
+		Header set Cache-Control "max-age=7200, public"
+	</filesMatch>
+	 Disable caching for scripts and other dynamic files
+	<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+		Header unset Cache-Control
+	</FilesMatch>
+ </IfModule>
+
+<IfModule mod_deflate>
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css application/json application/javascript
+
+	# Netscape 4.x has some problems...
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+
+	# Netscape 4.06-4.08 have some more problems
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+
+	# MSIE masquerades as Netscape, but it is fine
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+	# Make sure proxies don't deliver the wrong content
+	Header append Vary User-Agent env=!dont-vary
+</IfModule>
+

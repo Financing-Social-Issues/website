@@ -1,0 +1,12 @@
+{
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "config": {
+    "platform": {
+      "ext-openssl": "0"
+    },
+    "secure-http": true
+  }
+}

@@ -2,7 +2,7 @@
     <div class="fixed-menu__header">
         <a href="#" class="logo logo--color">
             <div class="logo__img"></div>
-            <div class="logo__title">Cryptoland</div>
+            <div class="logo__title"><?php echo $name;?></div>
         </a>
 
         <div class="btn-close">
@@ -15,36 +15,30 @@
 
         <ul class="mob-menu">
             <li class="mob-menu__item">
-                <a href="#about" class="mob-menu__link">About</a>
+                <a href="#about" class="mob-menu__link"><?php echo translate('Sobre'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#services" class="mob-menu__link">Services</a>
+                <a href="#services" class="mob-menu__link"><?php echo translate('Serviços'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#map" class="mob-menu__link">Road Map</a>
+                <a href="#map" class="mob-menu__link"><?php echo translate('Trajetória'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#stat" class="mob-menu__link">Statistic</a>
+                <a href="#stat" class="mob-menu__link"><?php echo translate('Statisticas'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#token" class="mob-menu__link">Token</a>
+                <a href="#token" class="mob-menu__link"><?php echo translate('Token'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#docs" class="mob-menu__link">WhitePappers</a>
+                <a href="#docs" class="mob-menu__link"><?php echo translate('WhitePappers'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#team" class="mob-menu__link">Team</a>
+                <a href="#team" class="mob-menu__link"><?php echo translate('Equipe'); ?></a>
             </li>
             <li class="mob-menu__item">
-                <a href="#faq" class="mob-menu__link">FAQ</a>
+                <a href="#faq" class="mob-menu__link"><?php echo translate('FAQ'); ?></a>
             </li>
         </ul>
-
-
-
-        <div class="btn-wrap">
-            <a href="" class="btn-sign-in">Join Cryptoland ICO</a>
-        </div>
 
 
     </div>

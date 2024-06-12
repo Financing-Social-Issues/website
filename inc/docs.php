@@ -4,7 +4,7 @@
             <div class="col">
                 <div class="section-header section-header--white section-header--center section-header--medium-margin">
                     <h4>
-                        teste
+                        <?php echo translate('Documentos'); ?>
                     </h4>
                     <h2>
                         WhitePapers

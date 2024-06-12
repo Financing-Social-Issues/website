@@ -5,22 +5,28 @@ error_reporting(E_ALL);
 
 $name = "Financing Social";
 
-$copyright = "{name} © 2021 - " . date("Y");
+$copyright = "$name © 2021 - " . date("Y");
 
-$url = 'https://l.socialissues.local/';
+$url = 'https://socialissues.finance';
+$url_buy = 'https://socialissues.finance';
 
 $social = array(
+    'email' => 'contact@socialissues.finance',
     'telegram' => 'https://t.me/SOIS_Official',
-    'facebook' => 'https://www.facebook.com/yourusername',
-    'instagram' => 'https://www.instagram.com/yourusername',
-    'youtube' => 'https://www.youtube.com/c/yourusername',
+    'twitter' => 'https://twitter.com/FinanceSocial',
+    'facebook' => 'https://www.facebook.com/FinancingSocial',
+    'instagram' => 'https://www.instagram.com/financing_social/',
+    'linkedin' => 'https://www.linkedin.com/company/social-issues-finance',
+    'github' => 'https://github.com/Financing-Social-Issues',
+
 );
 
 $coin = array(
     'name' => 'Financing Social Issues',
     'slug' => 'SOCIAL',
     'decimal' => '18',
-    'contract' => 'https://bscscan.com/address/0x42bf6be831d69f8e7b04e2e57fe7d12040ec792d',
+    'contract_url' => 'https://bscscan.com/address/0x42bf6be831d69f8e7b04e2e57fe7d12040ec792d',
+    'contract' => '0x42bf6be831d69f8e7b04e2e57fe7d12040ec792d',
 );
 
 $maxAge = time() + (60 * 60 * 24 * 7);
@@ -31,7 +37,7 @@ header("X-Content-Type-Options: nosniff");
 header("Referrer-Policy: strict-origin");
 header("Content-Security-Policy: object-src 'self'");
 
-$available_langs = array("es-es", "fr-fr", "en-us", "it-it", "in-id", "pt-br");
+$available_langs = array("es-es", "fr-fr", "en-us", "it-it", "in-id", "pt-br","zh-cn","ja-jp","ko-kr", "de-de");
 $availablelangs = json_encode($available_langs);
 $selected_lang = 'pt-br';
 

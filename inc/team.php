@@ -1,67 +1,54 @@
-<section class="section team" id="team" style="background-image: url(assets/img/team_bg.png);">
+<section class="section advisors" id="team" style="background-image: url(assets/img/team_bg.png);">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="section-header section-header--tire section-header--white section-header--medium-margin">
-                    <h4>Our brain</h4>
-                    <h2>Awesome Team</h2>
+                    <h4><?php echo translate('NOSSO CÉREBRO'); ?></h4>
+                    <h2><?php echo translate('Equipe incrível'); ?></h2>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-xl-3 col-6" data-aos="fade-left" data-aos-delay="100">
-                <div class="team-member">
-                    <img class="team-member__avatar" src="assets/img/ava1.png" alt="">
-                    <div class="team-member__content">
-                        <div class="team-member__name">David Drake</div>
-                        <div class="team-member__post">UI Designer</div>
-                        <ul class="team-member__social">
-                            <li><a href=""><img src="assets/img/facebook.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/linkedin.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/google-plus.svg" alt=""></a></li>
-                        </ul>
+            <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                <div class="advisor">
+                    <a href="https://www.linkedin.com/in/renato-o-junior/" class="advisor__img" target="Junior">
+                        <img src="assets/img/advisor-avatar-1.jpg" alt="Renato">
+                        <div class="advisor__sn">
+                            <img src="assets/img/linkedin.svg" alt="Linkedin">
+                        </div>
+                    </a>
+                    <div class="advisor__content">
+                        <div class="advisor__title">
+                            Junior
+                        </div>
+                        <div class="advisor__post">
+                            <?php echo translate('Lider de Desenvolvimento'); ?>
+                        </div>
+                        <p class="advisor__text">
+                            <?php echo translate('Como Desenvolvedor Líder, eu superviso a equipe técnica e garanto a integração de tecnologias blockchain, assegurando que nossa plataforma de doações opere com segurança e eficiência.'); ?>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-3 col-6" data-aos="fade-left" data-aos-delay="200">
-                <div class="team-member">
-                    <img class="team-member__avatar" src="assets/img/ava2.png" alt="">
-                    <div class="team-member__content">
-                        <div class="team-member__name">Allan Bellor</div>
-                        <div class="team-member__post">Analitics</div>
-                        <ul class="team-member__social">
-                            <li><a href=""><img src="assets/img/facebook.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/linkedin.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/google-plus.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 col-6" data-aos="fade-left" data-aos-delay="300">
-                <div class="team-member">
-                    <img class="team-member__avatar" src="assets/img/ava3.png" alt="">
-                    <div class="team-member__content">
-                        <div class="team-member__name">Joe Doe</div>
-                        <div class="team-member__post">Tech Operation</div>
-                        <ul class="team-member__social">
-                            <li><a href=""><img src="assets/img/facebook.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/linkedin.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/google-plus.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 col-6" data-aos="fade-left" data-aos-delay="400">
-                <div class="team-member">
-                    <img class="team-member__avatar" src="assets/img/ava4.png" alt="">
-                    <div class="team-member__content">
-                        <div class="team-member__name">Sam Tolder</div>
-                        <div class="team-member__post">CEO</div>
-                        <ul class="team-member__social">
-                            <li><a href=""><img src="assets/img/facebook.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/linkedin.svg" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/google-plus.svg" alt=""></a></li>
-                        </ul>
+
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                <div class="advisor">
+                    <a href="https://www.linkedin.com/in/pedro-hil%C3%A1rio-de-oliveira" class="advisor__img" target="Pedro">
+                        <img src="assets/img/advisor-avatar-2.jpg" alt="Pedro">
+                        <div class="advisor__sn">
+                            <img src="assets/img/linkedin.svg" alt="Linkedin">
+                        </div>
+                    </a>
+                    <div class="advisor__content">
+                        <div class="advisor__title">
+                            Pedro
+                        </div>
+                        <div class="advisor__post">
+                            <?php echo translate('Fundador'); ?>
+                        </div>
+                        <p class="advisor__text">
+                            <?php echo translate('Como Fundador, eu idealizei nossa moeda digital, impulsionando a missão de apoiar instituições de caridade globalmente e garantindo que nossas operações sigam a direção estratégica correta.'); ?>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -5,12 +5,12 @@
 
                 <div class="col-lg-6 col-xl-5 col-md-8" data-aos="fade-right">
                     <div class="section-header section-header--white section-header--tire">
-                        <h4>Mobile app</h4>
-                        <h2>Trust Wallet App for Token SOIS</h2>
+                        <h4><?php echo translate('App Celular'); ?></h4>
+                        <h2><?php echo translate('Carteira Trust seu app para Celular'); ?></h2>
                     </div>
 
                     <p>
-                        Proteja seus tokens com a Trust Wallet, a carteira segura e fácil de usar. Gerencie seus investimentos com confiança e acesse seu portfólio a qualquer hora.
+                        <?php echo translate('Proteja seus tokens com a Trust Wallet, a carteira segura e fácil de usar. Gerencie seus investimentos com confiança e acesse seu portfólio a qualquer hora.'); ?>
                     </p>
 
                     <div class="app__dowload-links">

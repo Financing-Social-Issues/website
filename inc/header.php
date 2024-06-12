@@ -1,9 +1,8 @@
 <header class="header">
-    <a href="#" class="logo">
+    <a href="/" class="logo">
         <div class="logo__img"></div>
         <div class="logo__title"><?php echo $name;?></div>
     </a>
-
     <ul class="menu">
         <li class="menu__item">
             <a href="#about" class="menu__link"><?php echo translate('Sobre'); ?></a>
@@ -30,19 +29,15 @@
             <a href="#faq" class="menu__link"><?php echo translate('FAQ'); ?></a>
         </li>
     </ul>
-
     <div class="header__right">
-        <a href="<?php echo translate('telegram'); ?>" class="telegram-link" target="telegram">
+        <a href="<?php echo $social['telegram'] ?>" class="telegram-link" target="telegram">
             <img src="assets/img/telegram-link.png" alt="">
         </a>
-
         <div class="dropdown" tabindex="0">
             <button id="dropdown-btn" class="dropdown-btn"></button>
             <ul class="dropdown-content" id="dropdown-content"></ul>
         </div>
-
     </div>
-
     <div class="btn-menu">
         <div class="one"></div>
         <div class="two"></div>

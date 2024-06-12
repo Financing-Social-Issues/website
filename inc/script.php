@@ -3,7 +3,6 @@
 <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
 <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <script>
-
     Highcharts.chart('container', {
         chart: {
             type: 'variablepie'
@@ -25,104 +24,67 @@
             name: 'áreas',
             borderRadius: 5,
             data: [{
-                name: 'Moradia',
+                name: '<?php echo translate('Moradia'); ?>',
                 y: 27,
                 z: 1000000
             }, {
-                name: 'Saúde',
+                name: '<?php echo translate('Saúde'); ?>',
                 y: 21,
                 z: 900000
             }, {
-                name: 'Desigualdade Racial',
+                name: '<?php echo translate('Desigualdade Racial'); ?>',
                 y: 11,
                 z: 400000
             }, {
-                name: 'Projeto',
+                name: '<?php echo translate('Projeto'); ?>',
                 y: 10,
                 z: 350000
             }, {
-                name: 'Desigualdade Social',
+                name: '<?php echo translate('Desigualdade Social'); ?>',
                 y: 8,
                 z: 300000
             }, {
-                name: 'Pós COVID',
+                name: '<?php echo translate('Pós COVID'); ?>',
                 y: 7,
                 z: 280000
             }, {
-                name: 'Desenvolvimento',
+                name: '<?php echo translate('Desenvolvimento'); ?>',
                 y: 7,
                 z: 270000
             }, {
-                name: 'Saneamento Básico',
+                name: '<?php echo translate('Saneamento Básico'); ?>',
                 y: 5,
                 z: 200000
             }, {
-                name: 'Desemprego',
+                name: '<?php echo translate('Desemprego'); ?>',
                 y: 4,
 
                 z: 150000
             }, {
-                name: 'Necesidades',
+                name: '<?php echo translate('Necessidades'); ?>',
                 y: 4,
                 z: 150000
             }
             ],
             colors: [
-                '#4caefe',  // Light Blue
-                '#3dc3e8',  // Cyan
-                '#2dd9db',  // Teal
-                '#1feeaf',  // Light Green
-                '#0ff3a0',  // Bright Green
-                '#00e887',  // Neon Green
-                '#23e274',  // Spring Green
-                '#34c461',  // Fresh Green
-                '#45b24e',  // Green
-                '#56a13b'   // Dark Green
+                '#FF5733',  // Strong Red-Orange
+                '#FF8D1A',  // Vivid Orange
+                '#FFC300',  // Bright Yellow
+                '#C70039',  // Vivid Red
+                '#900C3F',  // Strong Pink
+                '#DAF7A6',  // Bright Lime Green
+                '#FF33FF',  // Vivid Magenta
+                '#33FF57',  // Vivid Green
+                '#33C3FF',  // Bright Sky Blue
+                '#FF33A8'   // Bright Pink
             ]
+
         }]
     });
 
 </script>
 <script>
     $(document).ready(function(){
-        $('#contact-form').on('submit', function(event){
-            event.preventDefault();
-
-            var recaptcha = grecaptcha.getResponse();
-            if(recaptcha === ""){
-                $('#form-messages').html('<p class="alert alert-warning">Please check the captcha form.</p>');
-                return;
-            }
-
-            var formData = {
-                'name': $('input[name=name]').val(),
-                'email': $('input[name=email]').val(),
-                'subject': $('input[name=subject]').val(),
-                'message': $('textarea[name=message]').val(),
-                'g-recaptcha-response': recaptcha
-            };
-
-            $.ajax({
-                type: 'POST',
-                url: 'https://l.socialissues.local/email.php',
-                data: formData,
-                dataType: 'json',
-                encode: true
-            })
-                .done(function(data){
-                    if(data.success){
-                        $('#form-messages').html('<p class="alert alert-success">' + data.message + '</p>');
-                        $('#contact-form')[0].reset();
-                        grecaptcha.reset();
-                    } else {
-                        $('#form-messages').html('<p class="alert alert-warning">' + data.message + '</p>');
-                    }
-                })
-                .fail(function(data){
-                    $('#form-messages').html('<p class="alert alert-warning">' + data.message + '</p>');
-                });
-        });
-
         const locales = <?php echo $availablelangs; ?>;
         let selectedLang = "<?php echo $selected_lang; ?>";
         function getFlagSrc(countryCode) {
@@ -172,12 +134,9 @@
             )}" class="flag-icon" />${langName.toUpperCase()}<span class="arrow-down"></span>`;
         }
         setSelectedLocale(selectedLang);
-
-
-
     });
 
-    //const locales = ["en-GB","ar-SA","zh-CN","de-DE","es-ES","fr-FR","hi-IN","it-IT","in-ID","ja-JP","ko-KR","nl-NL","no-NO","pl-PL","pt-BR","sv-SE","fi-FI","th-TH","tr-TR","uk-UA","vi-VN","ru-RU","he-IL"];
+    //const locales = ["en-GB","ar-SA","zh-CN","de-DE","es-ES","fr-FR","hi-IN","it-IT","in-ID","zh-CN","ja-JP","ko-KR","nl-NL","no-NO","pl-PL","pt-BR","sv-SE","fi-FI","th-TH","tr-TR","uk-UA","vi-VN","ru-RU","he-IL"];
 
 
 </script>

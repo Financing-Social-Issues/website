@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col">
                 <div class="section-header section-header--center section-header--medium-margin">
-                    <h4>services</h4>
+                    <h4><?php echo translate('Produtos e Serviços'); ?></h4>
                     <h2>Token Financing Social Issues (SOIS)</h2>
                 </div>
             </div>
@@ -15,9 +15,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/services-icon-1.svg" alt="">
                     </div>
-                    <div class="service-item__title">Futuro Impacto Social</div>
+                    <div class="service-item__title"><?php echo translate('Futuro Impacto Social'); ?></div>
                     <p>
-                        Nosso token é mais que uma moeda digital; é uma ferramenta para financiar causas sociais, promover a transparência, segurança e engajamento comunitário.
+                        <?php echo translate('Nosso token é mais que uma moeda digital; é uma ferramenta para financiar causas sociais, promover a transparência, segurança e engajamento comunitário.'); ?>
                     </p>
                 </div>
             </div>
@@ -26,9 +26,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/services-icon-2.svg" alt="">
                     </div>
-                    <div class="service-item__title">Liquidez e Acessibilidade</div>
+                    <div class="service-item__title"><?php echo translate('Liquidez e Acessibilidade'); ?></div>
                     <p>
-                        Alta liquidez e acessibilidade, permitindo conversão fácil e rápida de investimentos para apoio imediato a causas sociais.
+                        <?php echo translate('Alta liquidez e acessibilidade, permitindo conversão fácil e rápida de investimentos para apoio imediato a causas sociais.'); ?>
                     </p>
                 </div>
             </div>
@@ -37,9 +37,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/services-icon-3.svg" alt="">
                     </div>
-                    <div class="service-item__title">Utilidade e Aplicação Prática</div>
+                    <div class="service-item__title"><?php echo translate('Utilidade e Aplicação Prática'); ?></div>
                     <p>
-                        Nosso token facilita transações rápidas e seguras, financiando diretamente projetos sociais impactantes e de grande relevância.
+                        <?php echo translate('Nosso token facilita transações rápidas e seguras, financiando diretamente projetos sociais impactantes e de grande relevância.'); ?>
                     </p>
                 </div>
             </div>
@@ -48,9 +48,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/services-icon-4.svg" alt="">
                     </div>
-                    <div class="service-item__title">Crescimento e Sustentabilidade</div>
+                    <div class="service-item__title"><?php echo translate('Crescimento e Sustentabilidade'); ?></div>
                     <p>
-                        Parcerias estratégicas e inovação constante, garantindo crescimento sustentável enquanto financia iniciativas sociais e promove um futuro melhor.
+                        <?php echo translate('Parcerias estratégicas e inovação constante, garantindo crescimento sustentável enquanto financia iniciativas sociais e promove um futuro melhor.'); ?>
                     </p>
                 </div>
             </div>
@@ -59,9 +59,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/services-icon-5.svg" alt="">
                     </div>
-                    <div class="service-item__title">Transparência e Governança</div>
+                    <div class="service-item__title"><?php echo translate('Transparência e Governança'); ?></div>
                     <p>
-                        Transparência total e governança descentralizada, permitindo participação ativa dos holders em todas as decisões do projeto.
+                        <?php echo translate('Transparência total e governança descentralizada, permitindo participação ativa dos holders em todas as decisões do projeto.'); ?>
                     </p>
                 </div>
             </div>
@@ -70,9 +70,9 @@
                     <div class="service-item__icon">
                         <img src="assets/img/service6.png" alt="">
                     </div>
-                    <div class="service-item__title">Suporte e Engajamento</div>
+                    <div class="service-item__title"><?php echo translate('Suporte e Engajamento'); ?></div>
                     <p>
-                        Suporte dedicado e engajamento ativo da comunidade, fortalecendo a participação e o impacto positivo nas causas sociais.
+                        <?php echo translate('Suporte dedicado e engajamento ativo da comunidade, fortalecendo a participação e o impacto positivo nas causas sociais.'); ?>
                     </p>
                 </div>
             </div>

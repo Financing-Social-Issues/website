@@ -8,7 +8,7 @@
                 </div>
                 <div class="logoes">
                     <?php
-                    $numLogos = 8;
+                    $numLogos = 7;
                     $formats = ['webp', 'png', 'jpg', 'jpeg'];
 
                     function getImagePath($baseDir, $baseName, $formats) {
@@ -24,7 +24,7 @@
                         $imagePath = getImagePath('assets/img/partners/', 'logo-' . $i, $formats);
                         if ($imagePath): ?>
                             <div>
-                                <img src="<?php echo $imagePath; ?>" alt="Logo <?php echo $i; ?>" style="width: 230px">
+                                <img src="<?php echo $imagePath; ?>" alt="Logo <?php echo $i; ?>" style="width: 300px">
                             </div>
                         <?php endif; endfor; ?>
                 </div>

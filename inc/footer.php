@@ -55,7 +55,7 @@
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['twitter'] ?>" class="" target="telegram">
+                            <a href="<?php echo $social['telegram'] ?>" class="" target="telegram">
                                 <i class="bi bi-telegram" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>

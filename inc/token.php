@@ -102,7 +102,7 @@
                         <?php echo translate(''); ?>Not
                     </li>
                     <li>
-                        <b><?php echo translate('Cadastro de participantes:'); ?></b>
+                        <b><?php echo translate('Limite de Tokens por participantes:'); ?></b>
                         0.02 USD / <?php echo translate('Sem limite'); ?>
                     </li>
                     <li>

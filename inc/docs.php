@@ -42,34 +42,6 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 col-6" data-aos="fade-left" data-aos-delay="100" style="margin-bottom: 15px">
-                <a href="assets/wp/whitepaper-sois-cn.pdf" download="" class="doc doc-cn">
-                    <div class="doc__name">
-                        <?php echo translate('WP SOIS Chinês'); ?>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-6" data-aos="fade-left" data-aos-delay="100" style="margin-bottom: 15px">
-                <a href="assets/wp/whitepaper-sois-de.pdf" download="" class="doc doc-de">
-                    <div class="doc__name">
-                        <?php echo translate('WP SOIS Alemão'); ?>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-6" data-aos="fade-left" data-aos-delay="100" style="margin-bottom: 15px">
-                <a href="assets/wp/whitepaper-sois-jp.pdf" download="" class="doc doc-jp">
-                    <div class="doc__name">
-                        <?php echo translate('WP SOIS Japonês'); ?>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-6" data-aos="fade-left" data-aos-delay="100" style="margin-bottom: 15px">
-                <a href="assets/wp/whitepaper-sois-kr.pdf" download="" class="doc doc-kr">
-                    <div class="doc__name">
-                        <?php echo translate('WP SOIS Coreano'); ?>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 </section>

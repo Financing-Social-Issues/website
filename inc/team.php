@@ -12,7 +12,7 @@
             <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="advisor">
                     <a href="https://www.linkedin.com/in/renato-o-junior/" class="advisor__img" target="Junior">
-                        <img src="assets/img/advisor-avatar-1.jpg" alt="Renato">
+                        <img src="assets/img/advisor-avatar-1.webp" alt="Renato">
                         <div class="advisor__sn">
                             <img src="assets/img/linkedin.svg" alt="Linkedin">
                         </div>
@@ -34,7 +34,7 @@
             <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
                 <div class="advisor">
                     <a href="https://www.linkedin.com/in/pedro-hil%C3%A1rio-de-oliveira" class="advisor__img" target="Pedro">
-                        <img src="assets/img/advisor-avatar-2.jpg" alt="Pedro">
+                        <img src="assets/img/advisor-avatar-2.webp" alt="Pedro">
                         <div class="advisor__sn">
                             <img src="assets/img/linkedin.svg" alt="Linkedin">
                         </div>

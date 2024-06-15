@@ -131,7 +131,7 @@
 
             dropdownBtn.innerHTML = `<img src="${getFlagSrc(
                 intlLocale.region
-            )}" class="flag-icon" />${langName.toUpperCase()}<span class="arrow-down"></span>`;
+            )}" class="flag-icon" alt='Language' />${langName.toUpperCase()}<span class="arrow-down"></span>`;
         }
         setSelectedLocale(selectedLang);
     });

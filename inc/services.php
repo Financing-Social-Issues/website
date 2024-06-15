@@ -1,4 +1,4 @@
-<section class="section services" id="services" style="background-image: url(assets/img/bg_2.jpg);">
+<section class="section services" id="services" style="background-image: url(assets/img/bg_2.webp);">
     <div class="container">
         <img src="assets/img/figure-blue.png" alt="" data-jarallax-element="-40" class="services__figure">
         <div class="row">

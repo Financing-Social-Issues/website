@@ -30,7 +30,7 @@
         </li>
     </ul>
     <div class="header__right">
-        <a href="<?php echo $social['telegram'] ?>" class="telegram-link" target="telegram">
+        <a href="<?php echo $social['telegram'] ?>" class="telegram-link" target="telegram"  aria-label="Visit Telegram">
             <img src="assets/img/telegram-link.png" alt="">
         </a>
         <div class="dropdown" tabindex="0">

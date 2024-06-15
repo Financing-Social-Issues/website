@@ -112,7 +112,7 @@
                 const listEl = document.createElement("li");
                 listEl.innerHTML = `${otherLangName.toUpperCase()}<img src="${getFlagSrc(
                     otherIntlLocale.region
-                )}" class="flag-icon" />`;
+                )}" class="flag-icon" alt='Language' />`;
                 listEl.value = otherLocale;
                 listEl.addEventListener("mousedown", function () {
                     const form = document.createElement("form");
@@ -135,8 +135,5 @@
         }
         setSelectedLocale(selectedLang);
     });
-
-    //const locales = ["en-GB","ar-SA","zh-CN","de-DE","es-ES","fr-FR","hi-IN","it-IT","in-ID","zh-CN","ja-JP","ko-KR","nl-NL","no-NO","pl-PL","pt-BR","sv-SE","fi-FI","th-TH","tr-TR","uk-UA","vi-VN","ru-RU","he-IL"];
-
 
 </script>

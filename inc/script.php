@@ -81,9 +81,6 @@
 
         }]
     });
-
-</script>
-<script>
     $(document).ready(function(){
         const locales = <?php echo $availablelangs; ?>;
         let selectedLang = "<?php echo $selected_lang; ?>";
@@ -135,5 +132,4 @@
         }
         setSelectedLocale(selectedLang);
     });
-
 </script>

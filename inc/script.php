@@ -1,7 +1,7 @@
 <script src="assets/js/scripts.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/variable-pie.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="assets/js/highcharts.js"></script>
+<script src="assets/js/variable-pie.js"></script>
+<script src="assets/js/accessibility.js"></script>
 <script>
     Highcharts.chart('container', {
         chart: {

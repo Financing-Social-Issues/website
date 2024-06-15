@@ -12,7 +12,7 @@
 <!--                    <a href="" class="btn btn--medium btn--orange">-->
 <!--                        <span>--><?php //echo translate('Comprar Tokens'); ?><!--</span>-->
 <!--                    </a>-->
-                    <a href="#docs" class="btn btn--big btn--blue">WhitePappers</a>
+                    <a href="#docs" class="btn btn--big btn-sign-in">WhitePappers</a>
                 </div>
 
             </div>

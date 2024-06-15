@@ -81,7 +81,7 @@ require "classes/Url.php";
 
     <?php require "inc/footer.php" ?>
 </div>
-<script src="inc/js/lazysizes.min.js" async></script>
+<script src="assets/js/lazysizes.min.js" async></script>
 <?php require "inc/script.php" ?>
 </body>
 </html>

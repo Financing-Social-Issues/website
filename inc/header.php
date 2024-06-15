@@ -1,5 +1,5 @@
 <header class="header">
-    <a href="/" class="logo">
+    <a href="/" class="logo"  aria-label="Visit SOIS">
         <div class="logo__img"></div>
         <div class="logo__title"><?php echo $name;?></div>
     </a>

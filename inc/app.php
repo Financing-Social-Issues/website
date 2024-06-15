@@ -15,10 +15,10 @@
 
                     <div class="app__dowload-links">
                         <a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp" class="app__link">
-                            <img src="assets/img/gp.png" alt="">
+                            <img src="assets/img/gp.png" class="lazyload" alt="">
                         </a>
                         <a href="https://apps.apple.com/us/app/trust-crypto-bitcoin-wallet/" class="app__link">
-                            <img src="assets/img/as.png" alt="">
+                            <img src="assets/img/as.png" class="lazyload" alt="">
                         </a>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12" style="display: flex; justify-content: center; align-items: center;">
-                <a href="" class="logo">
+                <a href="/" class="logo"  aria-label="Visit SOIS">
                     <img class="logo__img logo__img--big" src="assets/img/sois_logo_min.png" alt="">
                 </a>
                 <div class="copyright">
@@ -45,32 +45,32 @@
                     </div>
                     <ul class="social-list">
                         <li class="social-list__item">
-                            <a href="<?php echo $social['twitter'] ?>" class="" target="twitter">
+                            <a href="<?php echo $social['twitter'] ?>" class="" target="twitter" aria-label="Visit Twitter">
                                 <i class="bi bi-twitter-x fs" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['facebook'] ?>" class="-list__link" target="facebook">
+                            <a href="<?php echo $social['facebook'] ?>" class="-list__link" target="facebook" aria-label="Visit Facebook">
                                 <i class="bi bi-facebook" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['telegram'] ?>" class="" target="telegram">
+                            <a href="<?php echo $social['telegram'] ?>" class="" target="telegram" aria-label="Visit Telegram">
                                 <i class="bi bi-telegram" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['linkedin'] ?>" class="" target="linkedin">
+                            <a href="<?php echo $social['linkedin'] ?>" class="" target="linkedin" aria-label="Visit Linkedin">
                                 <i class="bi bi-linkedin" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['instagram'] ?>" class="" target="instagram">
+                            <a href="<?php echo $social['instagram'] ?>" class="" target="instagram" aria-label="Visit Instagram">
                                 <i class="bi bi-instagram" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a href="<?php echo $social['github'] ?>" class="" target="github">
+                            <a href="<?php echo $social['github'] ?>" class="" target="github" aria-label="Visit GitHub">
                                 <i class="bi bi-github" style="font-size: 1.5rem; color: cornflowerblue;"></i>
                             </a>
                         </li>

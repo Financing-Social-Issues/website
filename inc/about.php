@@ -1,4 +1,4 @@
-<section class="about section section--no-pad-bot" id="about" style="background-image: url(assets/img/bg_1.jpg);">
+<section class="about section section--no-pad-bot" id="about" style="background-image: url(assets/img/bg_1.jpg);margin-bottom: 20px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">

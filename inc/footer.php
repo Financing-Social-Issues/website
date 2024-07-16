@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-12" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-lg-4 col-md-12" style="display: flex; justify-content: center;">
                 <a href="/" class="logo"  aria-label="Visit SOIS">
                 </a>
                 <div class="copyright">

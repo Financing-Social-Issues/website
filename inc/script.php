@@ -3,6 +3,23 @@
 <script src="assets/js/variable-pie.js"></script>
 <script src="assets/js/accessibility.js"></script>
 <script>
+    // Função para exibir o popup
+    function showPopup() {
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    // Função para fechar o popup
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+    }
+
+    // Exibir o popup quando a página carregar
+    window.onload = function() {
+        showPopup();
+    };
+</script>
+<script>
+
     Highcharts.chart('container', {
         chart: {
             type: 'variablepie'

@@ -169,6 +169,45 @@
             border-radius: 8px;
             background: #c2c9d2;
         }
+
+        .popup-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* fundo semi-transparente */
+            z-index: 1000; /* alto z-index para sobrepor outros elementos */
+        }
+        .popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .popup-content img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 
 </head>
+<div class="popup-container" id="popup">
+    <div class="popup-content">
+        <a href="https://www.pinksale.finance/launchpad/bsc/0xd34ebb5911b866759d2E1039DA954555021457b5" target="_blank">
+        <img src="assets/img/presale.jpeg" alt="Popup Image">
+        </a>
+        <p>The Moment You've Been Waiting for is Here</p>
+        <p>SOIS #CRYPTO PRE-SALE IS NOW LIVE ON PINK SALE🤟🤟</p>
+        <p>Secure Your #token at $ 0.02 ✅</p>
+        <p>LIMITED TOKENS AVAILABLE🪙🪙🪙</p>
+        <p><a href="https://www.pinksale.finance/launchpad/bsc/0xd34ebb5911b866759d2E1039DA954555021457b5" target="_blank">Buy Now</a></p>
+        <p>#cryptocurrencies #Presale #PinkSale #Rewards #airdrop #SOIS #investing #social #Finances #education #poverty #USD</p>
+        <br>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>

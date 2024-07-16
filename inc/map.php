@@ -40,7 +40,7 @@
                             <?php echo translate('Desenvolvimento de estratégia de marketing, contato com influenciadores e parceiros do mercado.'); ?>
                         </div>
                     </div>
-                    <div class="roadmap__item roadmap__item--active">
+                    <div class="roadmap__item roadmap__item--past">
                         <div class="roadmap__item-title">
                             <?php echo translate('Maio 2024'); ?>
                         </div>
@@ -50,7 +50,7 @@
                             <?php echo translate('Distribuição de comunicados de imprensa e início de campanhas publicitárias.'); ?>
                         </div>
                     </div>
-                    <div class="roadmap__item">
+                    <div class="roadmap__item roadmap__item--active">
                         <div class="roadmap__item-title">
                             <?php echo translate('Julho 2024'); ?>
                         </div>

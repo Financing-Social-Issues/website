@@ -50,10 +50,10 @@
                             <?php echo translate('Distribuição de comunicados de imprensa e início de campanhas publicitárias.'); ?>
                         </div>
                     </div>
-                    <div class="roadmap__item roadmap__item--active">
-                        <div class="roadmap__item-title">
-                            <?php echo translate('Julho 2024'); ?>
-                        </div>
+                        <div class="roadmap__item roadmap__item--active">
+                            <div class="roadmap__item-title">
+                                <?php echo translate('Julho 2024'); ?>
+                            </div>
                         <div class="roadmap__item-marker">
                         </div>
                         <div class="roadmap__item-text">

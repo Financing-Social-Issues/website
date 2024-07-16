@@ -193,6 +193,42 @@
             max-width: 450px;
             height: auto;
         }
+        .btn-custom {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            text-align: center; /* Centraliza o texto horizontalmente */
+            text-decoration: none;
+            background-color: yellow;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: color 0.3s, background-color 0.3s;
+            margin: 10px; /* Espaçamento entre os botões */
+            border-radius: 4px; /* Borda arredondada */
+            line-height: 1; /* Alinha verticalmente o texto */
+            vertical-align: middle; /* Alinha verticalmente o texto */
+        }
+        .btn-custom::before {
+            content: '\1F525'; /* Código Unicode do emoji de fogo */
+            font-size: 18px;
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .btn-custom:hover {
+            color: red; /* Mudança de cor do texto ao passar o mouse */
+            background-color: #f0e68c; /* Mudança de cor de fundo ao passar o mouse */
+        }
+        .btn-custom:hover::before {
+            opacity: 1; /* Mostra o ícone de fogo ao passar o mouse */
+        }
     </style>
 
 </head>

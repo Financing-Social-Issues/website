@@ -28,7 +28,7 @@
         <li class="menu__item">
             <a href="#faq" class="menu__link"><?php echo translate('FAQ'); ?></a>
         </li>
-        <button type="button" class="btn btn-warning"
+        <button type="button" class="btn btn-custom"
                 style="color: black; font-weight: 900; background-color: yellow;"
                 onclick="window.location.href='https://www.pinksale.finance/launchpad/bsc/0xd34ebb5911b866759d2E1039DA954555021457b5'">
             JOIN PRESALE

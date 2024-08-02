@@ -15,7 +15,7 @@
 
     // Exibir o popup quando a página carregar
     window.onload = function() {
-        showPopup();
+        //showPopup();
     };
 </script>
 <script>

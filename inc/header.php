@@ -38,12 +38,12 @@
     <div class="header__right">
 
 
-<!--        <a href="https://www.pinksale.finance" class="telegram-link" target="pinksale"  aria-label="Visit Pinksale">
+        <a href="https://www.pinksale.finance" class="telegram-link" target="pinksale"  aria-label="Visit Pinksale">
             <img src="assets/img/pinksale.avif" alt="Pinksale Link">
         </a>
         <a href="https://www.dexview.com" class="telegram-link" target="telegram"  aria-label="Visit Dexview">
             <img src="assets/img/dexview-cat.svg" alt="Dexview Link" style="max-width: 39px">
-        </a>-->
+        </a>
         <a href="<?php echo $social['telegram'] ?>" class="telegram-link" target="telegram"  aria-label="Visit Telegram">
             <img src="assets/img/telegram-link.png" alt="Telegram Link">
         </a>
